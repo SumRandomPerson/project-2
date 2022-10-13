@@ -381,3 +381,4 @@ Received Import Request.
   path: Assets/Art/Sprites/UI
   artifactKey: Guid(bfb96839a89439043a19cb4fb1efcba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art/Sprites/UI using Guid(bfb96839a89439043a19cb4fb1efcba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5678d7afc4f31677ecd2aa3e0a0f531') in 0.000897 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
