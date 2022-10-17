@@ -95,3 +95,24 @@ Received Import Request.
   path: Assets/Scripts/RubyController.cs
   artifactKey: Guid(17968e860885d4271888fd313e1d19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/RubyController.cs using Guid(17968e860885d4271888fd313e1d19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5413871573701e506af6fb71015e67e2') in 0.004547 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 2.019619 ms (FindLiveObjects: 0.220909 ms CreateObjectMapping: 0.145069 ms MarkObjects: 1.584905 ms  DeleteObjects: 0.068156 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
