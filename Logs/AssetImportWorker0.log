@@ -12,107 +12,60 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52347
+54968
 Successfully changed project path to: /Users/game1-14/project 2
 /Users/game1-14/project 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game1-14/project 2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2022-10-17 08:29:12.416 Unity[90432:1379977] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2022-10-17 08:29:12.416 Unity[90432:1379977] Metal devices available: 1
-2022-10-17 08:29:12.416 Unity[90432:1379977] 0: AMD Radeon Pro 5500 XT (high power)
-2022-10-17 08:29:12.416 Unity[90432:1379977] Using device AMD Radeon Pro 5500 XT (high power)
+2022-10-18 08:43:10.803 Unity[94236:1616494] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2022-10-18 08:43:10.803 Unity[94236:1616494] Metal devices available: 1
+2022-10-18 08:43:10.804 Unity[94236:1616494] 0: AMD Radeon Pro 5500 XT (high power)
+2022-10-18 08:43:10.804 Unity[94236:1616494] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000985 seconds.
+Registered in 0.000417 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 71.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.035 seconds
+- Completed reload, in  2.013 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001375 seconds.
+Registered in 0.001352 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 73.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
+- Completed reload, in  1.027 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 201.7 MB.
 System memory in use after: 201.8 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3825.
-Total: 1.980750 ms (FindLiveObjects: 0.218274 ms CreateObjectMapping: 0.137449 ms MarkObjects: 1.540500 ms  DeleteObjects: 0.083965 ms)
+Total: 1.967740 ms (FindLiveObjects: 0.223865 ms CreateObjectMapping: 0.145101 ms MarkObjects: 1.515712 ms  DeleteObjects: 0.082416 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/RubyController.cs
-  artifactKey: Guid(17968e860885d4271888fd313e1d19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RubyController.cs using Guid(17968e860885d4271888fd313e1d19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45eb55e179eb85039a2be4c8bc4cd76e') in 0.308560 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001579 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 206.3 MB.
-System memory in use after: 206.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3829.
-Total: 2.028526 ms (FindLiveObjects: 0.237748 ms CreateObjectMapping: 0.142356 ms MarkObjects: 1.580495 ms  DeleteObjects: 0.067193 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.843412 seconds.
-  path: Assets/Scripts/RubyController.cs
-  artifactKey: Guid(17968e860885d4271888fd313e1d19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RubyController.cs using Guid(17968e860885d4271888fd313e1d19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5413871573701e506af6fb71015e67e2') in 0.004547 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002768 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 206.6 MB.
-System memory in use after: 206.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3833.
-Total: 2.019619 ms (FindLiveObjects: 0.220909 ms CreateObjectMapping: 0.145069 ms MarkObjects: 1.584905 ms  DeleteObjects: 0.068156 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  path: Assets/Art/Sprites/Tiles
+  artifactKey: Guid(a2a6d429bfc0241afa0d8e59a281548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles using Guid(a2a6d429bfc0241afa0d8e59a281548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36ee64bbb1742be9b2c600cec586a1c') in 0.004547 seconds 
