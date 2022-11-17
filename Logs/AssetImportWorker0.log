@@ -1,0 +1,172 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game1-14/project 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55522
+Successfully changed project path to: /Users/game1-14/project 2
+/Users/game1-14/project 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1-14/project 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2022-11-17 09:00:36.704 Unity[18523:6004823] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2022-11-17 09:00:36.704 Unity[18523:6004823] Metal devices available: 1
+2022-11-17 09:00:36.704 Unity[18523:6004823] 0: AMD Radeon Pro 5500 XT (high power)
+2022-11-17 09:00:36.705 Unity[18523:6004823] Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56523
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000545 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 70.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.297 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 73.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.096 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.9 MB.
+System memory in use after: 201.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3826.
+Total: 2.193245 ms (FindLiveObjects: 0.299070 ms CreateObjectMapping: 0.188181 ms MarkObjects: 1.617674 ms  DeleteObjects: 0.087365 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_2.asset
+  artifactKey: Guid(066456ac0fa56498fae6f3fce14a3409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_2.asset using Guid(066456ac0fa56498fae6f3fce14a3409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c61232581eec6f165a2ebe0a3bc2f1') in 0.979953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_1.asset
+  artifactKey: Guid(9a105b6b9f4c047bb8cbc25482e16d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_1.asset using Guid(9a105b6b9f4c047bb8cbc25482e16d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391a22a0eb22242e66b254c9ce5d7c6b') in 0.005878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_0.asset
+  artifactKey: Guid(8a3a63775c24a4ed694a6861183d489d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_0.asset using Guid(8a3a63775c24a4ed694a6861183d489d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75680707b1f97fb68591be26f357e9b') in 0.006051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_5.asset
+  artifactKey: Guid(44a5dcee692024b8fa45b5b6ce25c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_5.asset using Guid(44a5dcee692024b8fa45b5b6ce25c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffde602a722480a2bdb90ea9d701cf5') in 0.004306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_6.asset
+  artifactKey: Guid(5de7207260aac45ed836a6601fa40a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_6.asset using Guid(5de7207260aac45ed836a6601fa40a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2f827c84559eee26f5262c54e1326a') in 0.004519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_3.asset
+  artifactKey: Guid(9fa8c8a36169741fa90c41aa07c96d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_3.asset using Guid(9fa8c8a36169741fa90c41aa07c96d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c228fab2920d0c81b5b9c6afab75cc6c') in 0.005690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_4.asset
+  artifactKey: Guid(6d417955811d644d8b4ab7406ae05e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_4.asset using Guid(6d417955811d644d8b4ab7406ae05e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69ef2ed50ce6847d02e16d520ab0d38') in 0.004308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_7.asset
+  artifactKey: Guid(32d5d7a47ac7e4aa8ba54a4d4453389f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_7.asset using Guid(32d5d7a47ac7e4aa8ba54a4d4453389f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be8ce79db672669326b7985d4935d1c') in 0.004183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_8.asset
+  artifactKey: Guid(a0699e04d2456402f80913feacfd1a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner_8.asset using Guid(a0699e04d2456402f80913feacfd1a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf090947f693a389928d6ba47ee4d3f') in 0.004277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.370869 seconds.
+  path: Assets/Scripts/Damage.cs
+  artifactKey: Guid(22830421411154b1fb0b820c842aeda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Damage.cs using Guid(22830421411154b1fb0b820c842aeda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e7223c6e81a3caba3bf79334ded9dc') in 0.263480 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.7 MB.
+System memory in use after: 214.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3835.
+Total: 1.920977 ms (FindLiveObjects: 0.214579 ms CreateObjectMapping: 0.128942 ms MarkObjects: 1.514645 ms  DeleteObjects: 0.062159 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.9 MB.
+System memory in use after: 215.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3839.
+Total: 1.937050 ms (FindLiveObjects: 0.211347 ms CreateObjectMapping: 0.139321 ms MarkObjects: 1.519185 ms  DeleteObjects: 0.066597 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.602508 seconds.
+  path: Assets/Scripts/Damage.cs
+  artifactKey: Guid(22830421411154b1fb0b820c842aeda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Damage.cs using Guid(22830421411154b1fb0b820c842aeda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0515760019f540e3e549da8d147fd61') in 0.004731 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
