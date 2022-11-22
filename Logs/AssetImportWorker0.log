@@ -1,0 +1,78 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game1-14/project 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52349
+Successfully changed project path to: /Users/game1-14/project 2
+/Users/game1-14/project 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 72.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1-14/project 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2022-11-22 08:42:04.053 Unity[3236:105764] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2022-11-22 08:42:04.053 Unity[3236:105764] Metal devices available: 1
+2022-11-22 08:42:04.053 Unity[3236:105764] 0: AMD Radeon Pro 5500 XT (high power)
+2022-11-22 08:42:04.053 Unity[3236:105764] Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000432 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 79.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.069 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 76.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.8 MB.
+System memory in use after: 201.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3827.
+Total: 1.985868 ms (FindLiveObjects: 0.224263 ms CreateObjectMapping: 0.141812 ms MarkObjects: 1.534075 ms  DeleteObjects: 0.085043 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/RubyController.cs
+  artifactKey: Guid(17968e860885d4271888fd313e1d19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RubyController.cs using Guid(17968e860885d4271888fd313e1d19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbad4bd3f8d10197d88df20ba79de400') in 0.419318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.880022 seconds.
+  path: Assets/Scripts/HealthCollectible.cs
+  artifactKey: Guid(9ba3c54538d8241f19f1c02aa11de35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthCollectible.cs using Guid(9ba3c54538d8241f19f1c02aa11de35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108cd4545355406e358edfbacc4be341') in 0.001331 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
