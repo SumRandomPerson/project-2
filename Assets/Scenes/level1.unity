@@ -6609,9 +6609,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7397022813102528145, guid: 88e1326cecaac4de5b676b8910488c3c, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 1355059881823181884, guid: 20625ccf2a7c24bd88f0cb41726f66d4, type: 3}
     - target: {fileID: 7397022813102528148, guid: 88e1326cecaac4de5b676b8910488c3c, type: 3}
       propertyPath: m_Name
       value: Ruby
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397022813102528148, guid: 88e1326cecaac4de5b676b8910488c3c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7397022813102528150, guid: 88e1326cecaac4de5b676b8910488c3c, type: 3}
       propertyPath: m_RootOrder
