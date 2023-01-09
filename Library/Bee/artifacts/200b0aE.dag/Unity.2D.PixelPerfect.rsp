@@ -302,16 +302,17 @@
 -r:"/Applications/Unity/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"/Users/game1-14/project 2/Library/PackageCache/com.unity.cinemachine@2.7.9/Runtime/ThirdParty/clipper_library.dll"
 -r:"/Users/game1-14/project 2/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/IonicZip.dll"
 -r:"/Users/game1-14/project 2/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/YamlDotNet.dll"
 -r:"/Users/game1-14/project 2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll"
 -r:"/Users/game1-14/project 2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.2d.pixel-perfect@5.0.0/Runtime/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.2d.pixel-perfect@5.0.0/Runtime/CinemachinePixelPerfect.cs"
-"Library/PackageCache/com.unity.2d.pixel-perfect@5.0.0/Runtime/PixelPerfectCamera.cs"
-"Library/PackageCache/com.unity.2d.pixel-perfect@5.0.0/Runtime/PixelPerfectCameraInternal.cs"
+"Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3/Runtime/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3/Runtime/CinemachinePixelPerfect.cs"
+"Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3/Runtime/PixelPerfectCamera.cs"
+"Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3/Runtime/PixelPerfectCameraInternal.cs"
 -langversion:8.0
 
 /deterministic
