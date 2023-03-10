@@ -344,8 +344,10 @@
 "Assets/Scripts/Damage.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/HealthCollectible.cs"
+"Assets/Scripts/NonPlayerCharacter.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/RubyController.cs"
+"Assets/Scripts/UIHealthBar.cs"
 -langversion:8.0
 
 /deterministic
