@@ -8,6 +8,8 @@ public class RubyController : MonoBehaviour
     public float speed = 3.0f;
     
     public int maxHealth = 5;
+
+    public Transform respawnPosition;
     
     public GameObject projectilePrefab;
     
@@ -83,6 +85,12 @@ public class RubyController : MonoBehaviour
                 }
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
     }
     
     void FixedUpdate()
@@ -110,6 +118,11 @@ public class RubyController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+
+        if(currentHealth == 0)
+    {
+        Respawn();
+    }
     }
     
     void Launch()
@@ -127,5 +140,12 @@ public class RubyController : MonoBehaviour
     public void PlaySound(AudioClip clip)
     {
         audioSource.PlayOneShot(clip);
+    }
+
+
+    void Respawn()
+    {
+        ChangeHealth(maxHealth);
+        transform.position = respawnPosition.position;
     }
 }
