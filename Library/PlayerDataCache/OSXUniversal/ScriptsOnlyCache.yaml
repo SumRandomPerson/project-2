@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Button
     - Damage
     - EnemyController
     - HealthCollectible
@@ -48,6 +49,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -109,6 +111,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2866}
     - Class: 114
+      Script: {instanceID: 3166}
+    - Class: 114
       Script: {instanceID: 3640}
     - Class: 114
       Script: {instanceID: 4034}
@@ -138,6 +142,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6236}
     - Class: 114
       Script: {instanceID: 6574}
+    - Class: 114
+      Script: {instanceID: 30718}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1381,6 +1387,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 35ec97400fd57993e189a9a878318af3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Button
   platform: 2
   scenePathNames:
   - Assets/Scenes/level1.unity
